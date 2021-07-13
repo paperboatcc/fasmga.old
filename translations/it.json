@@ -1,0 +1,73 @@
+{
+	"general": {
+		"new_url": "Nuovo URL",
+		"dashboard": "Dashboard",
+		"developers": "Sviluppatori",
+		"settings": "Impostazioni",
+		"shorten_url": "Accorcia un URL",
+		"return_to_home": "Ritorna alla home",
+		"logout": "Esci"
+	},
+	"errors": {
+		"404": "Pagina non trovata.",
+		"405": "Metodo non permesso.",
+		"500": "Errore del server.",
+		"800": "Questo URL non esiste.",
+		"801": "Password errata.",
+		"start": "Errore",
+		"987": "L'URL inserito è blacklistato.",
+		"988": "Le API sono offline; avvisaci tramite fasm.ga/discord",
+		"989": "L'ID è già stato usato.",
+		"990": "Non possiedi questo URL."
+	},
+	"hints": {
+		"url": "https://www.fasmga.org",
+		"custom_id": "il-mio-url-personalizzato",
+		"password": "lamiapasswordsupersicura"
+	},
+	"index": {
+		"shortened_url": "URL accorciato",
+		"slogan": "Gratuito, senza annunci e open source. Come tutto dovrebbe essere.",
+		"description": "Fasm.ga è un URL shortener FOSS.",
+		"details": "Dettagli",
+		"custom_id": "ID personalizzato...",
+		"password": "Password...",
+		"nsfw": "NSFW?",
+		"nsfw_true": "Sì",
+		"nsfw_false": "No",
+		"shorten": "Accorcia",
+		"url": "URL...",
+		"idtype": "Formato ID...",
+		"respect_tos": "Assicurati di star rispettando i nostri "
+	},
+	"settings": {
+		"title": "Impostazioni",
+		"language": "Lingua",
+		"set_language": "Imposta lingua"
+	},
+	"password": {
+		"password_protected": "Questo URL è protetto da password.",
+		"continue": "Continua"
+	},
+	"dashboard": {
+		"title": "Dashboard",
+		"hover": "Se un dato non è completamente visibile, passaci sopra con il cursore.",
+		"cancel": "Annulla",
+		"save": "Salva",
+		"edit": "Modifica",
+		"delete": "Elimina",
+		"pass_hint": "Inserisci # per resettare la password.",
+		"are_you_sure": "Sei sicuro di voler eliminare",
+		"yes": "Sì",
+		"no": "No"
+	},
+	"nsfw": {
+		"alert": "Allerta contenuto NSFW",
+		"alert2": "Questo URL indirizza a contenuto NSFW. Sei sicuro di continuare? Il team di Fasm.ga non ne sarà responsabile.",
+		"continue": "Continua"
+	},
+	"tos": {
+		"title": "ToS Fasm.ga",
+		"tos": "Segnaposto."
+	}
+}

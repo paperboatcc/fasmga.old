@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="og:title" content="Fasm.ga">
+		<meta name="og:description" content="&quot;Free, ad-free and open source. Like everything should be.&quot;">
+		<meta name="theme-color" content="#04977C">
+		<meta name="og:image" content="/embed-image.png">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="keywords" content="url shortener, url shortner, fasm.ga, fasmga.org, www.fasm.ga, url shrinker, bitly, fasm ga, shortner, link shortner, link shrinker, link shortener, bit.ly, bit ly, tiny url, tinyurl, tinyurl.com, open source url shortener, foss url shortner">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/css/uikit.min.css" />
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit-icons.min.js"></script>
+		<script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+		<script>window.onload = function() { twemoji.parse(document.body, { folder: "svg", ext: ".svg" }) }</script>
+		<style>img.emoji { width: 1.5em; pointer-events: none }</style>
+		<title>{{ lang.general.shorten_url }} | Fasm.ga</title>
+	</head>
+	<body>
+		<nav class="uk-navbar-container uk-margin uk-flex-column uk-flex-top" data-uk-navbar data-uk-toggle="media: @s; cls: uk-flex-row uk-flex-top; mode: media">
+			<button type="button" data-uk-toggle="target: .navbar-collapse; cls: hidden-up-to-s" class="uk-navbar-toggle uk-hidden@s" data-uk-navbar-toggle-icon></button>
+			<div class="navbar-collapse hidden-up-to-s">
+    			<div class="uk-navbar-left">
+        			<a class="uk-navbar-item uk-logo" href="#">Fasm.ga</a>
+                	<ul class="uk-nav uk-nav-primary uk-padding-small" data-uk-toggle="media: @s; cls: uk-navbar-nav uk-padding-remove; mode: media">
+						<li class="uk-active"><a href="#">{{ lang.general.new_url }}</a></li>
+                    	<li><a href="/dashboard">{{ lang.general.dashboard }}</a></li>
+                    	<li><a href="/developers">{{ lang.general.developers }}</a></li>
+                    	<li><a href="/settings">{{ lang.general.settings }}</a></li>
+                	</ul>
+    			</div>
+			</div>
+		</nav>
+		<br>
+		<center>
+			<div style="width: 60%">
+				{% if url %}
+					<div class="uk-alert-primary uk-animation-slide-bottom-medium" uk-alert>
+						<a class="uk-alert-close" uk-close></a>
+						<p>{{ lang.index.shortened_url }}: <a href="{{ url }}">{{ url }}</a></p>
+					</div>
+				{% endif %}
+				{% if error %}
+					<div class="uk-alert-danger uk-animation-slide-bottom-medium" uk-alert>
+						<a class="uk-alert-close" uk-close></a>
+						<p>{{ error }}</a></p>
+					</div>
+				{% endif %}
+				{% if cookie_consent %}
+					<div class="uk-alert-primary uk-animation-slide-bottom-medium" uk-alert style="width: 60%">
+						<p>Fasm.ga uses technical cookies. <a href="/cookie_consent">Allow cookies and close banner</a></p>
+					</div>
+				{% endif %}
+				<form action="/new" method="POST">
+					<h1>{{ lang.index.slogan }}</h1>
+					<p>{{ lang.index.description }}</p>
+					<h2>{{ lang.general.shorten_url }}</h2>
+					<label for="url">{{ lang.index.url }}</label>
+					<br>
+					<br>
+					<input class="uk-input" type="url" placeholder="{{ lang.hints.url }}" aria-placeholder="{{ lang.hints.url }}" required id="url" name="url">
+					<ul uk-accordion>
+						<li>
+							<a class="uk-accordion-title" href="#">{{ lang.index.details }}</a>
+							<div class="uk-accordion-content">
+								<label for="id">{{ lang.index.custom_id }}</label>
+								<br>
+								<br>
+								<input class="uk-input" placeholder="{{ lang.hints.custom_id }}" aria-placeholder="{{ lang.hints.custom_id }}" id="id" name="id">
+								<br>
+								<br>
+								<br>
+								<label for="idtype">{{ lang.index.idtype }}</label>
+								<br>
+								<br>
+								<select class="uk-select" id="idtype" name="idtype">
+									<option value="abcdefgh" selected>abcdefgh</option>
+									<option value="abc12345">abc12345</option>
+									<option value="aBCde">aBCde</option>
+								</select>
+								<br>
+								<br>
+								<br>
+								<label for="password">{{ lang.index.password }}</label>
+								<br>
+								<br>
+								<input class="uk-input" placeholder="{{ lang.hints.password }}" aria-placeholder="{{ lang.hints.password }}" id="password" name="password">
+								<br>
+								<br>
+								<br>
+								<label for="nsfw">{{ lang.index.nsfw }}</label>
+								<br>
+								<br>
+								<select class="uk-select" id="nsfw" name="nsfw">
+									<option value="false" selected>{{ lang.index.nsfw_false }}</option>
+									<option value="true">{{ lang.index.nsfw_true }}</option>
+								</select>
+							</div>
+						</li>				
+					</ul>
+					<br>
+					<div class="uk-alert-primary uk-animation-slide-bottom-medium" uk-alert>
+						{{ lang.index.respect_tos }} <a href="/tos">ToS</a>!
+					</div>
+					<br>
+					<input class="uk-button uk-button-primary" type="submit" value="{{ lang.index.shorten }}">
+				</form>
+			</div>	
+		</center>
+	</body>
+</html>

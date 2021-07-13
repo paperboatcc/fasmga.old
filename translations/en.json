@@ -1,0 +1,73 @@
+{
+	"general": {
+		"new_url": "New URL",
+		"dashboard": "Dashboard",
+		"developers": "Developers",
+		"settings": "Settings",
+		"shorten_url": "Shorten an URL",
+		"return_to_home": "Return to home",
+		"logout": "Logout"
+	},
+	"errors": {
+		"404": "Page not found.",
+		"405": "Method not allowed.",
+		"500": "Server error.",
+		"800": "This URL doesn't exist.",
+		"801": "Incorrect password.",
+		"start": "Error",
+		"987": "The URL input is blacklisted.",
+		"988": "APIs are offline; report this to us via fasm.ga/discord",
+		"989": "The ID you input is already used.",
+		"990": "You don't own this URL."
+	},
+	"hints": {
+		"url": "https://www.fasmga.org",
+		"custom_id": "my-custom-url",
+		"password": "mysupersecurepassword"
+	},
+	"index": {
+		"shortened_url": "Shortened URL",
+		"slogan": "Free, ad-free and open source. Like everything should be.",
+		"description": "Fasm.ga is a FOSS URL shortener.",
+		"details": "Details",
+		"custom_id": "Custom ID...",
+		"password": "Password...",
+		"nsfw": "NSFW?",
+		"nsfw_true": "Yes",
+		"nsfw_false": "No",
+		"shorten": "Shorten",
+		"url": "URL...",
+		"idtype": "ID type...",
+		"respect_tos": "Make sure to respect our "
+	},
+	"settings": {
+		"title": "Settings",
+		"language": "Language",
+		"set_language": "Set language"
+	},
+	"password": {
+		"password_protected": "This URL is password-protected.",
+		"continue": "Continue"
+	},
+	"dashboard": {
+		"title": "Dashboard",
+		"hover": "If a data is not fully visible, hover it with the cursor.",
+		"cancel": "Cancel",
+		"save": "Save",
+		"edit": "Edit",
+		"delete": "Delete",
+		"pass_hint": "Input # to reset the password.",
+		"are_you_sure": "Are you sure you want to delete",
+		"yes": "Yes",
+		"no": "No"
+	},
+	"nsfw": {
+		"alert": "NSFW content alert",
+		"alert2": "This URL redirects to NSFW content. Do you want to continue? The Fasm.ga Team will not be responsible.",
+		"continue": "Continue"
+	},
+	"tos": {
+		"title": "Fasm.ga ToS",
+		"tos": "Placeholder."
+	}
+}

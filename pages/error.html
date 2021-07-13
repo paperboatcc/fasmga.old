@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="og:title" content="Fasm.ga">
+		<meta name="og:description" content="&quot;Free, ad-free and open source. Like everything should be.&quot;">
+		<meta name="theme-color" content="#04977C">
+		<meta name="og:image" content="/embed-image.png">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="keywords" content="url shortener, url shortner, fasm.ga, fasmga.org, www.fasm.ga, url shrinker, bitly, fasm ga, shortner, link shortner, link shrinker, link shortener, bit.ly, bit ly, tiny url, tinyurl, tinyurl.com, open source url shortener, foss url shortner">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/css/uikit.min.css" />
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit-icons.min.js"></script>
+		<script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+		<script>window.onload = function() { twemoji.parse(document.body, { folder: "svg", ext: ".svg" }) }</script>
+		<style>img.emoji { width: 1.5em; pointer-events: none }</style>
+		<title>{{ lang.errors.start }} {{ code }} | Fasm.ga</title>
+	</head>
+	<body>
+		<nav class="uk-navbar-container uk-margin">
+    		<div class="uk-navbar-left">
+        		<a class="uk-navbar-item uk-logo" href="#">Fasm.ga</a>
+    		</div>
+		</nav>
+		<br>
+		<center>
+			<div style="width: 60%">
+				<h1>{{ lang.errors.start }} {{ code }}</h1>
+				<p>{{ error }}</p>
+				<br>
+				<br>
+				<br>
+				<a href="/"><button class="uk-button uk-button-primary">{{ lang.general.return_to_home }}</button></a>
+			</div>	
+		</center>
+	</body>
+</html>
