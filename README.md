@@ -82,7 +82,7 @@ We do not use annoying ads on our website home or redirect page. There's always 
   Simple
 </h4>
 
-Fasm.ga is, and forever will be, extremely simple and straightforward to use. Fundamentally, it's __just__ a URL shortener. It doesn't need a page-tall hero talking about how awesome we are with 10 different buttons and redirect links to other pages stating how awesome we are and then the part where you get to use it.
+Fasm.ga is, and forever will be, extremely simple and straightforward to use. Fundamentally, it's __just__ a URL shortener. It doesn't need a page-tall hero talking about how awesome we are with tons of different buttons and redirect links to other pages stating how awesome we are and then the part where you get to use it.
 
 <h4 align="center">
   Secure
