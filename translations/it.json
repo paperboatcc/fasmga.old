@@ -1,56 +1,56 @@
 {
 	"general": {
-		"new_url": "Nuovo URL",
-		"dashboard": "Dashboard",
-		"developers": "Sviluppatori",
-		"settings": "Impostazioni",
-		"shorten_url": "Accorcia un URL",
-		"return_to_home": "Ritorna alla home",
-		"logout": "Esci"
+		"new_url": "nuovo link",
+		"dashboard": "dashboard",
+		"developers": "strumenti per nerd",
+		"settings": "impostazioni",
+		"shorten_url": "accorcia un URL",
+		"return_to_home": "pagina iniziale",
+		"logout": "esci"
 	},
 	"errors": {
-		"404": "Pagina non trovata.",
-		"405": "Metodo non permesso.",
-		"500": "Errore del server.",
-		"800": "Questo URL non esiste.",
-		"801": "Password errata.",
-		"start": "Errore",
-		"987": "L'URL inserito è blacklistato.",
-		"988": "Le API sono offline; avvisaci tramite fasm.ga/discord",
-		"989": "L'ID è già stato usato.",
-		"990": "Non possiedi questo URL."
+		"404": "…sembri perso. contenuto non trovato",
+		"405": "metodo non valido",
+		"500": "errore interno del server",
+		"800": "questo link non esiste",
+		"801": "password non corretta",
+		"start": "error",
+		"987": "contenuto blacklistato",
+		"988": "API offline",
+		"989": "gash già in uso da un altro link",
+		"990": "non sei il proprietario di questo link"
 	},
 	"hints": {
-		"url": "https://www.fasmga.org",
-		"custom_id": "il-mio-url-personalizzato",
-		"password": "lamiapasswordsupersicura"
+		"url": "https://youtu.be/jNQXAC9IVRw",
+		"custom_id": "g4shm0ltob3llo",
+		"password": "#~***********~#"
 	},
 	"index": {
-		"shortened_url": "URL accorciato",
+		"shortened_url": "link creato!",
 		"slogan": "Gratuito, senza annunci e open source. Come tutto dovrebbe essere.",
 		"description": "Fasm.ga è un URL shortener FOSS.",
-		"details": "Dettagli",
-		"custom_id": "ID personalizzato...",
-		"password": "Password...",
-		"nsfw": "NSFW?",
-		"nsfw_true": "Sì",
-		"nsfw_false": "No",
-		"shorten": "Accorcia",
-		"url": "URL...",
-		"idtype": "Formato ID...",
-		"respect_tos": "Assicurati di star rispettando i nostri "
+		"details": "dettagli",
+		"custom_id": "gash",
+		"password": "password",
+		"nsfw": "nsfw",
+		"nsfw_true": "sì",
+		"nsfw_false": "no",
+		"shorten": "accorcia",
+		"url": "url",
+		"idtype": "formato gash",
+		"respect_tos": "Si applicano i "
 	},
 	"settings": {
-		"title": "Impostazioni",
+		"title": "impostazioni",
 		"language": "Lingua",
-		"set_language": "Imposta lingua"
+		"set_language": "imposta lingua"
 	},
 	"password": {
-		"password_protected": "Questo URL è protetto da password.",
-		"continue": "Continua"
+		"password_protected": "link protetto da password",
+		"continue": "continua"
 	},
 	"dashboard": {
-		"title": "Dashboard",
+		"title": "dashboard",
 		"hover": "Se un dato non è completamente visibile, passaci sopra con il cursore.",
 		"cancel": "Annulla",
 		"save": "Salva",
