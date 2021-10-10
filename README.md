@@ -1,12 +1,12 @@
 <h1 align="center">
-  <a href="https://fasmga.org"><img src="https://github.com/fasm-ga/fasmga/blob/main/assets/big-fucking-frog.png?raw=true" width="69%"/></a>
+  <a href="https://www.fasmga.org"><img src="https://github.com/fasm-ga/fasmga/blob/main/assets/big-fucking-frog.png?raw=true" width="69%"/></a>
 </h1>
 <h2 align="center">
   <blockquote>Free, ad–free and open source.<br>
   Like everything should be.</blockquote>
 </h2>
 <h4 align="center">
-  <a href="https://fasmga.org/"><img src="https://img.shields.io/static/v1?color=04977C&label=a+free+url+shortener&message=fasm.ga"/></a>
+  <a href="https://www.fasmga.org/"><img src="https://img.shields.io/static/v1?color=04977C&label=a+free+url+shortener&message=Fasm.ga&style=for-the-badge"/></a>
 </h4>
 
 <h2 align="center">
@@ -17,8 +17,8 @@
     <tr>
       <td>web</td>
       <td>
-        <a href="https://fasmga.org/">
-          <img src="https://img.shields.io/static/v1?color=282C34&label=web&message=fasm.ga"/>
+        <a href="https://www.fasmga.org/">
+          <img src="https://img.shields.io/static/v1?color=282C34&label=web&message=Fasm.ga&style=for-the-badge"/>
         </a>
       </td>
     </tr>
@@ -26,15 +26,15 @@
       <td>mobile</td>
       <td>
         <a href="">
-          <img src="https://img.shields.io/static/v1?color=3DDC84&label=android&message=fasm.ga"/>
-          <img src="https://img.shields.io/static/v1?color=C42C34&label=ios&message=fasm.ga"/>
+          <img src="https://img.shields.io/static/v1?color=3DDC84&label=android&message=Fasm.ga&style=for-the-badge"/>
+          <img src="https://img.shields.io/static/v1?color=C42C34&label=ios&message=Fasm.ga&style=for-the-badge"/>
       </td>
     </tr>
     <tr>
       <td>windows</td>
       <td>
         <a href="">
-          <img src="https://img.shields.io/static/v1?color=blue&label=windows&message=work+in+progress"/>
+          <img src="https://img.shields.io/static/v1?color=blue&label=windows&message=work+in+progress&style=for-the-badge"/>
         </a>
       </td>
     </tr>
@@ -42,7 +42,7 @@
       <td>embedded</td>
       <td>
         <a href="">
-          <img src="https://img.shields.io/static/v1?color=F4C20D&label=android+wear&message=work+in+progress"/>
+          <img src="https://img.shields.io/static/v1?color=F4C20D&label=android+wear&message=work+in+progress&style=for-the-badge"/>
         </a>
       </td>
     </tr>
@@ -53,7 +53,7 @@
   Stats
 </h2>
 <h4 align="center">
-  <a href=""><img src="https://img.shields.io/static/v1?color=04977C&label=links+shortened&message=idk"/></a>
+  <a href=""><img src="https://img.shields.io/static/v1?color=04977C&label=links+shortened&message=idk&style=for-the-badge"/></a>
 </h4>
 
 <hr/>
@@ -97,8 +97,3 @@ We don't log your IP address in cleartext, and instead **encrypt** it in a **one
 </h4>
 
 Our code is open. Because why not. After all, it's how everything should be.™
-
-<hr/>
-
-### What's Fasm.ga?
-Fasm.ga is a free,
