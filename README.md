@@ -64,7 +64,7 @@
 
 We created Fasm.ga for all your URL shortening needs. It's completely free, and does **not** rely on **ads**, **commercial tracking** or **selling your data** to maintain. We don't log your IP or collect any of your navigation data.
 
-It's quite straightforward. You input a URL, and __we make it shorter__.™
+It's quite straightforward. You input a URL, and __we make it shorter__.
 
 <h4 align="center">
   Free
@@ -78,13 +78,11 @@ Fasm.ga at its core is, and forever will be, **completely free**. We will never 
 
 We do not use annoying ads on our website home or redirect page. There's always **nothing else** between **you and your link**.
 
-You can, optionally, choose to display a small, skippable ad on the redirect page of any of your links, to help support us. We will never apply this setting without your consent.
-
 <h4 align="center">
   Simple
 </h4>
 
-Fasm.ga is, and forever will be, extremely simple and straightforward to use. Fundamentally, it's __just__ a URL shortener.™ It doesn't need a page-tall hero talking about how awesome we are with 10 different buttons and redirect links to other pages stating how awesome we are and then the part where you get to use it.
+Fasm.ga is, and forever will be, extremely simple and straightforward to use. Fundamentally, it's __just__ a URL shortener. It doesn't need a page-tall hero talking about how awesome we are with 10 different buttons and redirect links to other pages stating how awesome we are and then the part where you get to use it.
 
 <h4 align="center">
   Secure
@@ -96,4 +94,4 @@ We don't log your IP address in cleartext, and instead **encrypt** it in a **one
   Open source
 </h4>
 
-Our code is open. Because why not. After all, it's how everything should be.™
+Our code is open. Because why not. After all, it's how everything should be.
