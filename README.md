@@ -95,3 +95,11 @@ We don't log your IP address in cleartext, and instead **encrypt** it in a **one
 </h4>
 
 Our code is open. Because why not. After all, it's how everything should be.
+
+<h4 align="center">
+  fasmga++;
+</h4>
+
+We have hosting fees, and we need a way to pay them.
+fasmga++; is a small tip that gives you some advanced (and, for the average user, useless) features like CAPTCHAs and automatized edits/deletions for your URLs.
+Anyway the Fasm.ga code is and will forever be entirely open source. You can use it, but **__you SHOULD follow the [Fasm.ga OSS License](https://www.fasmga.org/license)__**.
