@@ -53,7 +53,7 @@
   Stats
 </h2>
 <h4 align="center">
-  <a href=""><img src="https://img.shields.io/static/v1?color=04977C&label=links+shortened&message=idk&style=for-the-badge"/></a>
+  <a href="https://www.fasmga.org/stats"><img src="https://img.shields.io/static/v1?color=04977C&label=links+shortened&message=www.fasmga.org/stats&style=for-the-badge"/></a>
 </h4>
 
 <hr/>
