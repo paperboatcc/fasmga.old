@@ -70,7 +70,7 @@ It's quite straightforward. You input a URL, and __we make it shorter__.
   Free
 </h4>
 
-Fasm.ga at its core is, and forever will be, **completely free**. We will never charge you or ask you for your money for anything.
+Fasm.ga's core is, and forever will be, **completely free**. We will never charge you or ask you for your money for anything.
 
 <h4 align="center">
   Ad–less
