@@ -51,20 +51,20 @@
 	},
 	"dashboard": {
 		"title": "dashboard",
-		"hover": "Se un dato non è completamente visibile, passaci sopra con il cursore.",
-		"cancel": "Annulla",
-		"save": "Salva",
-		"edit": "Modifica",
-		"delete": "Elimina",
-		"pass_hint": "Inserisci # per resettare la password.",
-		"are_you_sure": "Sei sicuro di voler eliminare",
-		"yes": "Sì",
-		"no": "No"
+		"hover": "passa sopra a un'azione o un dato con il cursore per visualizzare più dettagli",
+		"cancel": "annulla",
+		"save": "salva",
+		"edit": "modifica",
+		"delete": "elimina",
+		"pass_hint": "inserisci # per resettare la password",
+		"are_you_sure": "questa azione potrebbe essere irreversibile. sei sicuro?",
+		"yes": "sì",
+		"no": "no"
 	},
 	"nsfw": {
-		"alert": "Allerta contenuto NSFW",
-		"alert2": "Questo URL indirizza a contenuto NSFW. Sei sicuro di continuare? Il team di Fasm.ga non ne sarà responsabile.",
-		"continue": "Continua"
+		"alert": "contenuto sensibile",
+		"alert2": "sei sicuro di voler continuare?",
+		"continue": "continua, negando qualsiasi responsabilità dal team di Fasm.ga"
 	},
 	"tos": {
 		"title": "ToS Fasm.ga",
