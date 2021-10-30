@@ -2,7 +2,7 @@ Welcome to Fasm.ga's official documentation!
 ===================================
 
 This isn't the fasmga.js, fasmga.py, OpenGA or Fasm.ga API documentation.
-==================
+-------------
 This documentation only explains how to use Fasm.ga.
 
 * `fasmga.js documentation <https://fasmga-js.docs.fasmga.org>`_
