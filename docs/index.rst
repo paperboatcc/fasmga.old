@@ -1,20 +1,11 @@
-.. Fasm.ga documentation master file, created by
-   sphinx-quickstart on Fri Oct 29 23:06:10 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to Fasm.ga's documentation!
+Welcome to Fasm.ga's official documentation!
 ===================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-
-
-Indices and tables
+This isn't the fasmga.js, fasmga.py, OpenGA or Fasm.ga API documentation.
 ==================
+This documentation only explains how to use Fasm.ga.
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+* `fasmga.js documentation <https://fasmga-js.docs.fasmga.org>`_
+* `fasmga.py documentation <https://fasmga-py.docs.fasmga.org>`_
+* `OpenGA documentation <https://openga.docs.fasmga.org>`_
+* `Fasm.ga API documentation <https://restapi.docs.fasmga.org>`_
