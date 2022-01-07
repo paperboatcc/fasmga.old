@@ -1,9 +1,0 @@
-User-agent: *
-Disallow: /dashboard
-Disallow: /get
-Disallow: /login
-Disallow: /staff
-Disallow: /developers
-Disallow: /logout
-
-Sitemap: https://www.fasmga.org/sitemap.xml
